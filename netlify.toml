@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build --prefix Client"
+  command = "npm run build"
   publish = "Client/dist"
   functions = "Backend"
 
