@@ -1,5 +1,17 @@
 [build]
-  functions = "functions"
+  command = "npm run build --prefix Client"
+  publish = "Client/dist"
+  functions = "Backend"
 
 [functions]
   node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/server/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
