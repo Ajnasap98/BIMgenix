@@ -9,6 +9,7 @@ build/
 # Dependencies
 node_modules/
 jspm_packages/
+backup_source/
 
 # Environment variables
 .env
@@ -16,12 +17,10 @@ jspm_packages/
 .env.*.local
 
 # Debug and temp files
-analysis_temp/
 temp_verify_zip/
 temp_zip_check/
 debug_zip_content/
 BIMgenix_Deploy/
-BIMgenix_FINAL/
 BIMgenix_FLAT/
 BIMgenix_RELEASE/
 
