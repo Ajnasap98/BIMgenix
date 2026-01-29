@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-cyan: #06b6d4;
+  --color-deep-blue: #081830;
+}
+
+body {
+  background-color: #081830;
+  color: #e2e8f0;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}

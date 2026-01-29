@@ -9,7 +9,7 @@ build/
 # Dependencies
 node_modules/
 jspm_packages/
-backup_source/
+# backup_source/ (Removed to allow pushing source)
 
 # Environment variables
 .env
