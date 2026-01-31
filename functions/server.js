@@ -24,7 +24,7 @@ router.post('/contact', async (req, res) => {
     await transporter.sendMail({
       from: email,
       to: 'bimgenix@gmail.com',
-      subject: `BIMatrix Contact: ${subject}`,
+      subject: `BIMgenix Contact: ${subject}`,
       text: `From: ${name} (${email})\n\n${message}`
     });
 
